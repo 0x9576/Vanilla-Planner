@@ -1,0 +1,52 @@
+.App {
+    width: 100%;
+}
+
+.App .PlannerPage {
+    width: 560px;
+    margin: 0 auto;
+}
+
+.App .day_box {
+    width: 560px;
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+.App .day_box .day {
+    color: rgb(250, 150, 0);
+    background-color: rgb(251, 240, 202);
+    font-weight: bold;
+    width: 74px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+
+.App .PlannerPage .date {
+    width: 76px;
+    height: 76px;
+    display: inline-block;
+    color: rgb(250, 150, 0);
+    font-weight: bold;
+    background-color: rgb(251, 240, 202);
+    margin: 2px;
+}
+
+.App .PlannerPage .not {
+    color: rgb(188, 185, 185);
+}
+
+.App .PlannerPage .sat {
+    color: blue;
+}
+
+.App .PlannerPage .sun {
+    color: red;
+}
+
+h1 {
+    color: #f3e5ab;
+    text-align: center;
+    font-weight: bold;
+}

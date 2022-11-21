@@ -11,7 +11,7 @@ export default function App({ $target }) {
         $target.innerHTML = ''
 
         if (pathname === '/') {
-            new PlannerPage({ $target }).render()
+            new PlannerPage({ $target, initialState: { date: new Date() } }).render()
         } else if (pathname === '/login/') {
             new LoginPage({
                 $target
