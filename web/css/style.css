@@ -2,51 +2,93 @@
     width: 100%;
 }
 
+.App .PlannerHeader {
+    color: #f3e5ab;
+    text-align: center;
+}
+
+.App .PlannerHeader #prev {
+    font-size: 58px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.App .PlannerHeader #next {
+    font-size: 58px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.App .PlannerHeader h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block
+}
+
+.App .PlannerHeader {
+    text-align: center;
+}
+
 .App .PlannerPage {
-    width: 560px;
+    width: 970px;
     margin: 0 auto;
 }
 
-.App .day_box {
-    width: 560px;
+.App .PlannerPage .Calendar {
+    width: 750px;
+    float: left;
+}
+
+.App .PlannerPage .Todo {
+    width: 200px;
+    height: 479px;
+    background-color: rgb(255, 246, 212);
+    color: rgb(250, 150, 0);
+    float: left;
+}
+
+.App .PlannerPage .Calendar .date {
+    width: 100px;
+    height: 85px;
+    display: inline-block;
+    color: rgb(250, 150, 0);
+    font-weight: bold;
+    background-color: rgb(255, 246, 212);
+    margin: 2px;
+}
+
+.App .PlannerPage .Calendar .day_box {
+    width: 770px;
     height: 30px;
     margin-bottom: 4px;
 }
 
-.App .day_box .day {
+.App .PlannerPage .Calendar .day_box .day {
     color: rgb(250, 150, 0);
-    background-color: rgb(251, 240, 202);
+    background-color: rgb(255, 246, 212);
     font-weight: bold;
-    width: 74px;
+    width: 98px;
     display: inline-block;
     margin-left: 2px;
 }
 
-
-.App .PlannerPage .date {
-    width: 76px;
-    height: 76px;
-    display: inline-block;
-    color: rgb(250, 150, 0);
-    font-weight: bold;
-    background-color: rgb(251, 240, 202);
-    margin: 2px;
-}
-
-.App .PlannerPage .not {
+.App .PlannerPage .Calendar .not {
     color: rgb(188, 185, 185);
 }
 
-.App .PlannerPage .sat {
+.App .PlannerPage .Calendar .sat {
     color: blue;
 }
 
-.App .PlannerPage .sun {
+.App .PlannerPage .Calendar .sun {
     color: red;
 }
 
-h1 {
-    color: #f3e5ab;
-    text-align: center;
-    font-weight: bold;
+.App .PlannerPage .Calendar .day_box .sat {
+    color: blue;
+}
+
+.App .PlannerPage .Calendar .day_box .sun {
+    color: red;
 }
